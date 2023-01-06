@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace NBA_League_Romania.Domain
 {
-    internal class Echipa : Entity
+    internal class Jucator : Elev
     {
-        public Echipa(string name)
+        public Jucator(string name, string school, Echipa echipa) : base(name, school)
         {
-            this.name = name;
+            this.echipa = echipa;
         }
 
-        private string name;
+        private Echipa echipa;
         
-        public string Name
+        public Echipa Echipa 
         { 
             get
             {
-                return name;
+                return this.echipa;
             }
             set
             {
-                name = value;
+                this.echipa = value;
             }
         }
     }

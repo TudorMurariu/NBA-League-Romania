@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace NBA_League_Romania.Domain
 {
-    internal class Entity
+    internal class Entity<ID>
     {
-        
-        private int id;
-        static int id_count = 0;
 
-        public Entity()
-        {
-            this.id = id_count++;
+        private ID id;
+        
+        public ID Id 
+        { 
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            } 
         }
     }
 }
