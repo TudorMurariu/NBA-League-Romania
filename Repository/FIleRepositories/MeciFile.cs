@@ -10,9 +10,10 @@ namespace NBA_League_Romania.Repository.FIleRepositories
     internal class MeciFile : FileRepo<Meci>
     {
         IRepository<Guid, Echipa> echipe;
-        public MeciFile(IRepository<Guid, Echipa> echipe ,string fileName) : base(fileName)
+        public MeciFile(IRepository<Guid, Echipa> echipe ,string fileName)
         {
             this.echipe = echipe;
+            readFromFile(fileName);
         }
 
         protected override Meci entityFromString(string data)

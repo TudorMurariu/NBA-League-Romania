@@ -10,9 +10,10 @@ namespace NBA_League_Romania.Repository.FIleRepositories
     internal class JucatorFile : FileRepo<Jucator>
     {
         IRepository<Guid, Echipa> echipe;
-        public JucatorFile(IRepository<Guid, Echipa> echipe, string fileName) : base(fileName) 
+        public JucatorFile(IRepository<Guid, Echipa> echipe, string fileName) 
         {
             this.echipe = echipe;
+            readFromFile(fileName);
         }
 
         protected override Jucator entityFromString(string data)

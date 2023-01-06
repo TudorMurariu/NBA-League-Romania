@@ -40,7 +40,7 @@ namespace NBA_League_Romania.ServiceFolder
                 from jucatorActiv in jucatoriActivi.FindAll()
                 join jucator in jucatori.FindAll()
                 on jucatorActiv.IdJucator equals jucator.Id
-                where jucatorActiv.IdMeci == meci.Id
+                where jucatorActiv.IdMeci == meci.Id && jucator.Echipa.Id == echipa.Id
                 select jucator;
         }
 
@@ -54,17 +54,24 @@ namespace NBA_League_Romania.ServiceFolder
 
         public string ScorulUnuiMeci(Meci meci)
         {
-            int scorEchipa1 =
+            int scorEchipa1 = 0;
+            try
+            {
+                scorEchipa1 =
                 (from jucatorActiv in jucatoriActivi.FindAll()
                  join jucator in jucatori.FindAll()
                  on jucatorActiv.IdJucator equals jucator.Id
                  join echipa in echipe.FindAll()
                  on jucator.Echipa.Id equals echipa.Id
-                 where jucatorActiv.IdMeci == meci.Id 
+                 where jucatorActiv.IdMeci == meci.Id
                         && meci.Echipa1.Id == echipa.Id
                  select jucatorActiv.NrPuncteInscrise).Sum();
+            }catch{}
 
-            int scorEchipa2 =
+            int scorEchipa2 = 0;
+            try
+            {
+                scorEchipa2 =
                 (from jucatorActiv in jucatoriActivi.FindAll()
                  join jucator in jucatori.FindAll()
                  on jucatorActiv.IdJucator equals jucator.Id
@@ -73,6 +80,8 @@ namespace NBA_League_Romania.ServiceFolder
                  where jucatorActiv.IdMeci == meci.Id
                         && meci.Echipa2.Id == echipa.Id
                  select jucatorActiv.NrPuncteInscrise).Sum();
+            }
+            catch{}
 
             return scorEchipa1.ToString() + " - " + scorEchipa2.ToString(); 
         }

@@ -10,21 +10,25 @@ namespace NBA_League_Romania.Repository.FIleRepositories
     internal abstract class FileRepo<E> : InMemoryRepo<E>
         where E : Entity<Guid>, new()
     {
+        protected FileRepo() { }
         public FileRepo(string fileName)
         {
             readFromFile(fileName);
         }
 
-        private void readFromFile(string fileName)
+        protected void readFromFile(string fileName)
         {
             StreamReader streamReaderreader = new StreamReader(fileName);
             string data;
-            do
+            while(true)
             {
                 data = streamReaderreader.ReadLine();
+                if (data == null)
+                    break;
+
                 Save(entityFromString(data));
 
-            }while(data != null);
+            }
         }
 
         protected abstract E entityFromString(string data);
