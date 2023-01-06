@@ -1,10 +1,12 @@
-﻿namespace NBA_League_Romania
+﻿using NBA_League_Romania.Repository.FIleRepositories;
+
+namespace NBA_League_Romania
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ElevFile elevFile = new ElevFile("elevi.txt");
         }
     }
 }

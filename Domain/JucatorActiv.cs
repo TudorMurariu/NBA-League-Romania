@@ -13,6 +13,8 @@ namespace NBA_League_Romania.Domain
     }
     internal class JucatorActiv : Entity<Guid>
     {
+        public JucatorActiv() { }
+
         private Guid idJucator;
         
         public Guid IdJucator 
@@ -43,7 +45,7 @@ namespace NBA_League_Romania.Domain
             set { tip = value; } 
         }
 
-        public JucatorActiv(Guid idJucator, Guid idMeci, int nrPuncteInscrise, Tip tip)
+        public JucatorActiv(Guid id, Guid idJucator, Guid idMeci, int nrPuncteInscrise, Tip tip) : base(id) 
         {
             this.idJucator = idJucator;
             this.idMeci = idMeci;

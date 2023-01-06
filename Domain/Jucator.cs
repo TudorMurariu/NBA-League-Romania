@@ -8,7 +8,8 @@ namespace NBA_League_Romania.Domain
 {
     internal class Jucator : Elev
     {
-        public Jucator(string name, string school, Echipa echipa) : base(name, school)
+        public Jucator() { }
+        public Jucator(Guid id, string name, string school, Echipa echipa) : base(id, name, school)
         {
             this.echipa = echipa;
         }

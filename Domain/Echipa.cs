@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace NBA_League_Romania.Domain
 {
-    internal class Echipa : Entity
+    internal class Echipa : Entity<Guid>
     {
-        public Echipa(string name)
+        public Echipa() { }
+        public Echipa(Guid id, string name) : base(id)
         {
             this.name = name;
         }

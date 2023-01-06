@@ -8,7 +8,8 @@ namespace NBA_League_Romania.Domain
 {
     internal class Elev : Entity<Guid>
     {
-        public Elev(string name, string school)
+        public Elev() { }
+        public Elev(Guid id, string name, string school) : base(id)
         {
             this.name = name;
             this.school = school;
@@ -27,6 +28,11 @@ namespace NBA_League_Romania.Domain
         {
             get { return school; }
             set { school = value; }
+        }
+
+        public override string ToString()
+        {
+            return Id.ToString() + ";" + Name + ";" + School;
         }
     }
 }

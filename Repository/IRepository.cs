@@ -9,7 +9,7 @@ namespace NBA_League_Romania.Repository
 {
     internal interface IRepository<ID, E> where E : Entity<ID>
     {
-        E? FindOne(ID id);
+        E FindOne(ID id);
 
         IEnumerable<E> FindAll();
 

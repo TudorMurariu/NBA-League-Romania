@@ -19,21 +19,13 @@ namespace NBA_League_Romania.Repository
         public IEnumerable<E> FindAll() => entities.Values;
 
 
-        public E? FindOne(Guid id)
+        public E FindOne(Guid id)
         {
-            E? entity = null;
-            try
-            {
-                entity = entities[id];
-            }
-            catch(Exception ex) { }
-
-            return entity;
+            return entities[id];
         }
 
         public E Save(E entity)
         {
-            entity.Id = Guid.NewGuid();
             entities[entity.Id] = entity;
             return entity;
         }
@@ -41,11 +33,6 @@ namespace NBA_League_Romania.Repository
         public bool Delete(Guid id)
         {
             return entities.Remove(id);
-        }
-
-        public void ReadFromFile(string file)
-        {
-
         }
     }
 }
