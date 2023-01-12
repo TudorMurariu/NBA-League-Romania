@@ -1,0 +1,36 @@
+b4aab005-fe51-4e45-8412-a33aaf9a0fa3;Alexandru State;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+cbfb8a6b-5bd6-49c2-aeae-ec25a01c4a57;Gabriel Pislaru;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+f50bc0cd-37c2-4de0-8ef8-ab65d319c852;Adrian Doroftei;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+0c4db50d-4055-49aa-8f58-28a4235bae17;Abdul Nasser;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+cc83e1bf-bd17-4acf-8239-6c0a981e5280;Alex Butnaru;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+2f3cddad-aba2-4a49-9401-747a81123973;Hanganu Matei;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+553cddad-aba2-4149-9401-747a81123973;Nicu Margine;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+777cddad-aba4-3149-9401-747a81123973;Flavian Tanasa;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+177cddad-aba4-3141-9401-742b81123973;Mara Boaca;Scoala Gimnaziala 'Iuliu Hatieganu';21b504a1-497d-429f-907e-08bf2248847e
+2f5a40be-5277-4700-aa7e-62ba25cc411a;Nicu Pop;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+905a40be-5277-4700-aa7e-62ba25cc411a;Stefan Nasptase;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+125a40be-5277-4700-aa7e-62ba25cc411a;Rares Perta;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+225a40be-5277-4700-bc7e-62ba25cc411a;Mihai Cane;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+335a40be-5277-4700-bc7e-62ba25cc411a;Cosmin Popa;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+445a40be-5277-4700-bc7e-62ba25cc411a;Matei Tanasa;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+555a40be-5277-4700-bc7e-62ba25cc411a;Matei Tataru;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+665a40be-5277-4700-bc7e-62ba25cc411a;Stefan Atomulesei;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+775a40be-5277-4700-bc7e-62ba25cc411a;Mihail Ghidoarca;Liceul cu Program Sportiv Cluj-Napoca;9a92f9f9-5289-40e6-8116-c85ebef390a9
+f9ddc632-d8f0-4bcb-b08d-565fcf19c559;Larisa Cristina Teodorescu;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+19ddc632-d8f0-4bcb-b08d-565fcf19c559;Catalin Teodorescu;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+29ddc632-d8f0-4bcb-b08d-565fcf19c559;Maria Huzum;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+39ddc632-d8f0-4bcb-b08d-565fcf19c559;Anastasia Georghiu;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+49ddc632-d8f0-4bcb-b08d-565fcf19c559;Ana Maria Barbulei;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+59ddc632-d8f0-4bcb-b08d-565fcf19c559;Ana Maria Alucai;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+69ddc632-d8f0-4bcb-b08d-565fcf19c559;Matei Gheorghiu;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+79ddc632-d8f0-4bcb-b08d-565fcf19c559;Murariu Emilia Cristina;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+89ddc632-d8f0-4bcb-b08d-565fcf19c559;Elena Gabriela;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+99ddc632-d8f0-4bcb-b08d-565fcf19c559;Irina Ioana Avasalcai;Liceul de Informatica "Tiberiu Popoviciu";03e579f0-1c89-4d40-9226-425206b130e1
+da95e93a-7558-487e-8170-c7f355fb44a5;Gabriel Dumea;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+bb95e93a-7558-487e-8170-c7f355fb44a5;Daniel Ilioi;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+aa95e93a-7558-487e-8170-c7f355fb44a5;Matei Baciu;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+1395e93a-7558-487e-8170-c7f355fb44a5;Emil Cosma;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+2395e93a-7558-487e-8170-c7f355fb44a5;Octavian Cosofret;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+3395e93a-7558-487e-8170-c7f355fb44a5;Elena Huzum;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+4495e93a-7558-487e-8170-c7f355fb44a5;Irina Mihalachi;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
+5595e93a-7558-487e-8170-c7f355fb44a5;Cristian Soare;Scoala Gimnaziala “Horea”;860f0b2c-7fdf-48ac-b611-5eaecfee7f45
