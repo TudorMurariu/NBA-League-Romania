@@ -1,5 +1,6 @@
 ﻿using NBA_League_Romania.Repository.FIleRepositories;
 using NBA_League_Romania.ServiceFolder;
+using NBA_League_Romania.UIFolder;
 
 namespace NBA_League_Romania
 {
@@ -44,6 +45,9 @@ namespace NBA_League_Romania
 
             Console.WriteLine("Scorul meciului dintre Atlanta Hawks si New York Knicks din 12/20/2018 este: " +
                 service.ScorulUnuiMeci(meciFile.FindOne(Guid.Parse("444dc51f-717a-4b2e-9f6b-f1f42c9aedc6"))));
+
+            UI console = new UI(service);
+            console.run();
         }
     }
 }

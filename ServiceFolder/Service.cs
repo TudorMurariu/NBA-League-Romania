@@ -86,5 +86,17 @@ namespace NBA_League_Romania.ServiceFolder
             return scorEchipa1.ToString() + " - " + scorEchipa2.ToString(); 
         }
 
+
+        public Echipa findEchipa(Guid id)
+        {
+            return echipe.FindOne(id);
+        }
+
+        public Meci findMeci(Guid id)
+        {
+            return meciuri.FindOne(id);
+        }
+
+
     }
 }
